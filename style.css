@@ -56,6 +56,27 @@ html {
   min-height: 100%;
 }
 
+/* Mobile styles (adjust as needed) */
+@media (max-width: 768px) {
+    .parallax1,
+    .parallax12 {
+      min-height: 80vh; /* Adjust the value as needed */
+    }
+  
+    .parallax2,
+    .parallax3,
+    .parallax4,
+    .parallax5,
+    .parallax6,
+    .parallax7,
+    .parallax8,
+    .parallax9,
+    .parallax10,
+    .parallax11 {
+      min-height: 40vh; /* Adjust the value as needed */
+    }
+  }
+
 .parallax1,
 .parallax2,
 .parallax3,
@@ -75,6 +96,25 @@ html {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+/* Mobile styles for screens up to 768px (adjust this value as needed) */
+@media (max-width: 768px) {
+    .parallax1,
+    .parallax2,
+    .parallax3,
+    .parallax4,
+    .parallax5,
+    .parallax6,
+    .parallax7,
+    .parallax8,
+    .parallax9,
+    .parallax10,
+    .parallax11,
+    .parallax12 {
+      background-attachment: scroll; /* Change background attachment to scroll on mobile */
+      opacity: 1; /* Increase opacity on mobile for better visibility */
+    }
+  }
 
 .head {
   position: absolute;
